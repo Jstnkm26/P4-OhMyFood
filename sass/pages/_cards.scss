@@ -1,0 +1,85 @@
+// FUNCTION CARDS
+
+#functioning {
+    padding-top: 15px;
+    width: 100%;
+    background-color: white;
+}
+
+#all_founction_cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+#functioning h2 {
+    margin-left: 20px;
+}
+
+.function_cards {
+    position: relative;
+    background-color: #f7f7f7;
+    width: 90%;
+    border-radius: 25px;
+    box-shadow: 4px 4px 5px lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    margin-bottom: 30px;
+}
+
+.card_body_function {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.function_number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    left: -10px;
+    background-color: $colour-primary;
+    border-radius: 20px;
+    height: 25px;
+    width: 25px;
+    color: white;
+    font-size: 12px;
+}
+
+.card_logo_function {
+    padding-left: 40px;
+    font-size: 22px;
+}
+
+.card_text_function {
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+// FUNCTION ICON COLOR
+.fa-store {
+    color: $colour-primary;
+}
+
+.fa-mobile-screen-button {
+    color: grey;
+}
+
+.fa-list-ul {
+    color: grey;
+}
+
+// CARDS HOVER 
+
+.function_cards:hover {
+    transform: scale(1.02);
+}
+
+
