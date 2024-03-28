@@ -5,10 +5,9 @@
     width: 162px;
     margin-top: 14px;
     padding-bottom: 12px;
-    padding-left: 30%;
 
     @media screen and (min-width :768px) {
-        padding-left: 42%;
+        padding-left: 2%;
     }
 }
 
@@ -122,4 +121,125 @@ input::placeholder {
 
 .btn_text:hover {
     transform: scale(1.01);
+}
+
+// HEADER MENU 
+
+/*Header*/
+#header_menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+// Bouton return 
+
+#return {
+    color: black;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+#header_menu img {
+    width: 180px;
+    margin-top: 25px;
+    padding-bottom: 15px;
+    background-color: white;
+    margin-right: 30%;
+
+    @media screen and (min-width :768px) {
+        margin-right: 45%;
+    }
+}
+
+
+/*Under_Header*/
+#picture_under_header {
+    max-width: 1440px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    position: relative;
+}
+
+#title_menu h1 {
+    font-size: 30px;
+    font-family: 'Shrikhand';
+    font-weight: 500;
+    margin-bottom: -20px;
+    padding-top: 20px;
+}
+
+#title_menu {
+    font-family: 'Shrikhand';
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: -40px;
+    padding-left: 15px;
+    border-radius: 45px 45px 0 0;
+    background-color: #F6F6F6;
+}
+
+
+#title_menu i {
+    font-size: 25px;
+}
+
+#header_index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+#header_index img {
+    width: 210px;
+    margin-top: 25px;
+    padding-bottom: 25px;
+    background-color: white;
+
+    @media screen and (min-width:992px) {
+        margin-right: 0px;
+    }
+}
+
+/*texte_header*/
+#header_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #f7f7f7;
+    text-align: center;
+    padding-bottom: 60px;
+
+    @media screen and (min-width:992px) {
+        flex-direction: column;
+        justify-content: space-around;
+        padding-top: 40px;
+    }
+}
+
+#header_text h1 {
+    padding-top: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    @media screen and (min-width:992px) {
+        padding-top: 0px;
+        margin-top: 0px;
+        padding-bottom: 10px;
+    }
+}
+
+.header_text_under {
+    font-weight: 300;
+    padding-bottom: 10px;
+    font-size: 20px;
 }

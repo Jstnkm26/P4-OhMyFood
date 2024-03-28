@@ -1,0 +1,31 @@
+.loader-container {
+    position: fixed;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #fff;
+    inset: 0;
+    z-index: 1;
+    opacity: 0.9;
+    animation: loader_end 200ms 3s forwards;
+    transform-origin: top;
+    i {
+        animation: spin 3s;
+        color: #9356DC;
+    }
+}
+
+@keyframes loader_end {
+    from {
+        transform: scale(1)
+    }
+    to {
+        transform: scale(0)
+    }
+}
+
+@keyframes spin {
+    to{
+        transform: rotate(360deg)
+    }
+}

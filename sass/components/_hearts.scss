@@ -1,0 +1,66 @@
+.heart__1 {
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 45px;
+    font-size: 25px;
+}
+
+.heart__2 {
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 45px;
+    font-size: 25px;
+    opacity: 0;
+    background: linear-gradient(rgba(255, 121, 218, 1), rgba(147, 86, 220, 1));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heart:hover .heart__2 {
+    font-size: 25px;
+    opacity: 1;
+    animation: heart 0.5s;
+    transform-origin: center;
+}
+
+.heart:hover .heart__1 {
+    opacity: 0;
+}
+
+.heart__3 {
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    font-size: 25px;
+}
+
+.heart__4 {
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    font-size: 25px;
+    opacity: 0;
+    background: linear-gradient(rgba(255, 121, 218, 1), rgba(147, 86, 220, 1));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.heart:hover .heart__4 {
+    font-size: 25px;
+    opacity: 1;
+    animation: heart 0.5s;
+    transform-origin: center;
+}
+
+.heart:hover .heart__3 {
+    opacity: 0;
+
+}
+

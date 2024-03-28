@@ -1,0 +1,51 @@
+// Afficher les menu 
+
+@keyframes spawn {
+    from {
+        transform: scaleY(0);
+    }
+
+    to {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+}
+
+@keyframes spawn_title {
+    from {
+        transform: scaleX(0);
+    }
+
+    to {
+        transform: scaleX(1);
+        opacity: 1;
+    }
+}
+
+// Animation du coeur
+
+@keyframes heart {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+// Slide de la checkbox
+
+@keyframes slide {
+    from {
+        transform: scaleX(0);
+        width: 0px;
+        opacity: 0;
+    }
+
+    to {
+        transform: scaleX(1);
+        width: 15%;
+        opacity: 1;
+    }
+}
